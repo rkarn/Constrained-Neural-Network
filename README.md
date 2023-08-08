@@ -8,4 +8,10 @@ Sparse neural network generation for MNIST, UNSW, and Audio MNIST datasets.
 
 2. UNSW Keras layerwise sparse .ipynb  --> An exercise to apply different sparsity at each layer.
 
-3. 
+3. MNIST_Sparse_HLS.ipynb --> High level synthesis for FPGA implementation of the sparse MNIST model and compare that with non-sparse model.
+
+4. MNIST Keras two input neuron only.ipynb --> Each neuron accepts only two connections. Limiting the fan-in of the neuron and anlyzing the model performance for MNISt dataset.
+
+5. MNIST Keras Sparsely connected.ipynb --> Sparsely connected model evaluation for MNIST dataset, similar to 1.
+
+6. Audio MNIST Sparsely connected.ipynb --> Sparsely connected model evaluation for Audio MNIST dataset, similar to 5 and 1. It contain the conversion of audio samples to images and apply the convolution neural networks (CNNs) to train the model. During training, the sparsity is applied to convolution as well as the desnse layers.
