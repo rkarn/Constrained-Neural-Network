@@ -1,4 +1,7 @@
 # Constrained-Neural-Network
+This repository contains the source code to reproduce the results of paper:
+
+`Das, Rammi, Rupesh Raj Karn, Jukka Heikkonen, and Rajeev Kanth. "TNEST: Training Sparse Neural Network for FPGA Based Edge Application." 2024 International Conference on Advances in Computing Research (ACR'24), June 3-5, 2024, IE University, Madrid, Spain`
 
 Sparse neural network generation for MNIST, UNSW, and Audio MNIST datasets.
 
